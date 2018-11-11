@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Faces">
+
+    <ImageView
+        android:id="@+id/happy"
+        android:layout_width="112dp"
+        android:layout_height="97dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/smiling" />
+
+    <ImageView
+        android:id="@+id/angary"
+        android:layout_width="112dp"
+        android:layout_height="97dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/happy"
+        android:layout_marginEnd="24dp"
+        app:srcCompat="@drawable/angry" />
+
+    <ImageView
+        android:id="@+id/hungry"
+        android:layout_width="112dp"
+        android:layout_height="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/happy"
+        android:layout_marginTop="162dp"
+        app:srcCompat="@drawable/hungry" />
+
+    <ImageView
+        android:id="@+id/sad"
+        android:layout_width="112dp"
+        android:layout_height="97dp"
+        android:layout_alignStart="@+id/angary"
+        android:layout_alignTop="@+id/hungry"
+        app:srcCompat="@drawable/sad" />
+
+</RelativeLayout>
